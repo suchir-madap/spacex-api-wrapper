@@ -1,15 +1,15 @@
 {
  "spaceTrack": {
-  "CREATION_DATE": "2022-06-20T07:26:12",
+  "CREATION_DATE": "2022-06-20T18:19:35",
   "OBJECT_NAME": "STARLINK-4071",
   "OBJECT_ID": "2022-053R",
   "LAUNCH_DATE": "2022-05-18"
  },
- "height_km": 434.6765740567862,
- "latitude": -48.98926298737011,
+ "height_km": 421.0085606054263,
+ "latitude": 42.61728027149102,
  "launch": "62615ebc0ec008379be596fa",
- "longitude": -159.3684572795222,
- "velocity_kms": 7.650231230354268,
+ "longitude": 83.4729035138753,
+ "velocity_kms": 7.664172690354738,
  "version": "v1.5",
  "id": "628ea116a8973c1694df189b"
 }
