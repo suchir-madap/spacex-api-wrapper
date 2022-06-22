@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import schedule
 
 # this function uses requests, allows user to type in a satellite id and then returns json value
 
@@ -16,9 +17,16 @@ def satellite_data(data_id):
     store['spaceTrack'] = new_dict
 
     timestr = time.strftime("%a %B %d %Y-%H %M %S") # Day Month Day Year Hour Min Sec
-    new = open(timestr + '.json', 'w')
+    new = open('data/' + timestr + '.json', 'w')
 
     json.dump(store, new, indent= 1)
     new.close()
 
-satellite_data('628ea116a8973c1694df189b')
+
+
+# main
+schedule.every(2).minutes.do(satellite_data, '628ea116a8973c1694df189b')
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
