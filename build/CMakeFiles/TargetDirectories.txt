@@ -1,0 +1,3 @@
+C:/Users/Owner/Documents/GitHub/spacex-api-wrapper/build/CMakeFiles/YourExecutableName.dir
+C:/Users/Owner/Documents/GitHub/spacex-api-wrapper/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Owner/Documents/GitHub/spacex-api-wrapper/build/CMakeFiles/ZERO_CHECK.dir
