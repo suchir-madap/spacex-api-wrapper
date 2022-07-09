@@ -173,9 +173,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Owner\Documents\GitHub\spacex-api-wrapper\build\YourExecutableName.vcxproj">
-      <Project>{452DCEDA-7DBA-3661-AD73-400B97F62773}</Project>
-      <Name>YourExecutableName</Name>
+    <ProjectReference Include="C:\Users\Owner\Documents\GitHub\spacex-api-wrapper\build\Kuiper.vcxproj">
+      <Project>{DE9D7A66-7603-3BA0-8469-90B56CC4C3DD}</Project>
+      <Name>Kuiper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Owner\Documents\GitHub\spacex-api-wrapper\build\Starlink.vcxproj">
+      <Project>{550319D6-12C3-392E-90DB-B0E57E5BCC61}</Project>
+      <Name>Starlink</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
